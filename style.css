@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: #b66d38 ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+li{
+    display: inline;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 2vh;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+li a:hover{
+    background-color: #1c4046;
+}
+body{
+    background-color: #1c4046;
+}
+section{
+    display: flex;
+}
+img{
+    padding: 10vh;
+    width: 40vw;
+    
+}
+.facts{
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    margin: 50vh;
+    margin-right: 30vh;
+}
+p{
+    margin-top: -10vh;
+    margin-left: 62vh;
+    width: 32vw;
+    font-size: larger;
+    text-align-last:center;
+}
